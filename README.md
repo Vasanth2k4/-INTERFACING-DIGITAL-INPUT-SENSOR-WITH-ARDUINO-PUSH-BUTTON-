@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## DATE :15.02.2024
+## NAME :VASANTHRAJ J																			             
+## ROLLNUMBER :212223230235
+## DEPARTMENT:AIDS
 
 
 ## AIM:
@@ -62,24 +62,41 @@ FIGURE -03
 
 
 ## PROGRAM 
- 
- 
-
-
-
-
-
-
-
-
-
- 
- 
- 
-
+ ```
+int led= 4;
+int pushbutton=3;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
+void loop()
+{
+  int pb;
+  pb= digitalRead(pushbutton);
+  if(pb==HIGH)
+  {
+  digitalWrite(led, HIGH);
+  delay(500); // Wait for 500 millisecond (s)
+    digitalWrite(led, LOW);
+  delay(500); // Wait for 500 millisecond (s)
+  }
+  else
+  {
+   delay(500);
+   digitalWrite(led, LOW);
+  }
+    }
+ ```
 
 
 ## OUTPUT OF SIMULATION :
 
-[My image](username.github.com/repository/img/image.jpg)
+![exp 1 a](https://github.com/Vasanth2k4/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/147139769/f5f7ed4c-e140-4277-822a-8ee1864c99f6)
+
+![exp 01](https://github.com/Vasanth2k4/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/147139769/0d3fae9d-0e17-4986-8f24-cb096592d6a9)
+
+##RESULT:
+
+interfaced thev degita; inout(push button)and made an LED blink upon activates as been executed succesfully.
 
