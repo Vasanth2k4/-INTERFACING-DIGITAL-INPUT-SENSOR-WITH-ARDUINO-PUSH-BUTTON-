@@ -96,7 +96,7 @@ void loop()
 
 ![exp 01](https://github.com/Vasanth2k4/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/147139769/0d3fae9d-0e17-4986-8f24-cb096592d6a9)
 
-##RESULT:
+## RESULT:
 
 interfaced thev degita; inout(push button)and made an LED blink upon activates as been executed succesfully.
 
